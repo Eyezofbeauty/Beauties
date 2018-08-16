@@ -1,0 +1,511 @@
+{
+   "chromePolicies": {
+      "AllowDinosaurEasterEgg": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "AllowKioskAppControlChromeVersion": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "ArcEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "AttestationForContentProtectionEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "AutoFillEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "BookmarkBarEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "CaptivePortalAuthenticationIgnoresProxy": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "CastReceiverEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "ChromeOsMultiProfileUserBehavior": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": "primary-only"
+      },
+      "ChromeOsReleaseChannel": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": "stable-channel"
+      },
+      "ChromeOsReleaseChannelDelegated": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceAllowNewUsers": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceAutoUpdateDisabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceBlockDevmode": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DeviceDataRoamingEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceEphemeralUsersEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceGuestModeEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceLocalAccounts": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [ {
+            "id": "publicaccount.@johnson.kyschools.us",
+            "type": 0
+         }, {
+            "id": "mdmkkicfmmkgmpkmkdikhlbggogpicma",
+            "kiosk_app_id": "mdmkkicfmmkgmpkmkdikhlbggogpicma",
+            "type": 1
+         }, {
+            "id": "omkghcboodpimaoimdkmigofhjcpmpeb",
+            "kiosk_app_id": "omkghcboodpimaoimdkmigofhjcpmpeb",
+            "type": 1
+         } ]
+      },
+      "DeviceLoginScreenDomainAutoComplete": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": ""
+      },
+      "DeviceMetricsReportingEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceOpenNetworkConfiguration": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": "{\n   \"NetworkConfigurations\": [ {\n      \"GUID\": \"{8779fba2-143f-4978-89ca-ec426fc8ea82}\",\n      \"Name\": \"Johnson Secure Wireless\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": true,\n         \"HiddenSSID\": false,\n         \"Passphrase\": \"********\",\n         \"SSID\": \"Johnson_Secure\",\n         \"Security\": \"WPA-PSK\"\n      }\n   } ]\n}\n"
+      },
+      "DeviceShowUserNamesOnSignin": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DeviceTargetVersionPrefix": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": ""
+      },
+      "DeviceTransferSAMLCookies": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DeviceUpdateHttpDownloadsEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DeviceUpdateScatterFactor": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": 259200
+      },
+      "DeviceUserWhitelist": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [ "*@stu.johnson.kyschools.us", "*@johnson.kyschools.us" ]
+      },
+      "DisplayRotationDefault": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "EasyUnlockAllowed": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "ExtensionInstallBlacklist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "pjkljhegncpnkpknbcohdijeoejaedia", "omkghcboodpimaoimdkmigofhjcpmpeb" ]
+      },
+      "ExtensionInstallForcelist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "cbpiiblghhnlalifiaddecedaeaijdpe;https://clients2.google.com/service/update2/crx", "kpmpdolpcgcihifeihogalecdkpjhiko;https://clients2.google.com/service/update2/crx", "bgofflgeghkhocbociocnckocbjmomjh;https://clients2.google.com/service/update2/crx", "jbjidfnmagdepejhimoffnogcimeinlk;https://clients2.google.com/service/update2/crx", "ojpmknlmiefdmkfbfebehccibkjdihbj;https://clients2.google.com/service/update2/crx", "gcmhlmapohffdglflokbgknlknnmogbb;https://clients2.google.com/service/update2/crx", "acoonfmhnndodekhecidldfdjgooefpg;https://clients2.google.com/service/update2/crx", "epeghedgnjnkihgfaajfdgdnfadfajcj;https://clients2.google.com/service/update2/crx", "pahdiadnidmaaoohjmlkcjffbfcapgko;https://clients2.google.com/service/update2/crx", "mfhehppjhmmnlfbbopchdfldgimhfhfk;https://clients2.google.com/service/update2/crx", "nblhpecglllndfihipmpdoikimcmgkha;https://clients2.google.com/service/update2/crx", "bfpeiapdhnegnfcfkdfihabadngjagfj;https://clients2.google.com/service/update2/crx", "mdmkkicfmmkgmpkmkdikhlbggogpicma;https://clients2.google.com/service/update2/crx", "adfjcbbjamlgmacbiknciojefjonlloh;https://clients2.google.com/service/update2/crx" ]
+      },
+      "ForceGoogleSafeSearch": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ForceMaximizeOnFirstRun": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ForceYouTubeSafetyMode": {
+         "error": "This policy has been deprecated.",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "HeartbeatEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "HomepageIsNewTabPage": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "HomepageLocation": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": "http://www.johnson.kyschools.us"
+      },
+      "IdleAction": {
+         "error": "This policy has been deprecated.",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 3
+      },
+      "IncognitoModeAvailability": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 1
+      },
+      "InstantTetheringAllowed": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "LidCloseAction": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourcePublicSessionOverride",
+         "value": 1
+      },
+      "LogUploadEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "LoginAuthenticationBehavior": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": 1
+      },
+      "LoginVideoCaptureAllowedUrls": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "ManagedBookmarks": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ {
+            "name": "Google Classroom",
+            "url": "http://www.google.com/classroom"
+         }, {
+            "name": "Edmodo",
+            "url": "https://johnsonky.edmodo.com/"
+         } ]
+      },
+      "NTPContentSuggestionsEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "PacHttpsUrlStrippingEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "PasswordManagerEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "PinnedLauncherApps": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "mdmkkicfmmkgmpkmkdikhlbggogpicma" ]
+      },
+      "PolicyRefreshRate": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 1800000
+      },
+      "ProxySettings": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": {
+            "ProxyMode": "direct"
+         }
+      },
+      "QuickUnlockModeWhitelist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": [  ]
+      },
+      "RebootAfterUpdate": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "ReportDeviceActivityTimes": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceBootMode": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceHardwareStatus": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceNetworkInterfaces": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceSessionStatus": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceUsers": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceVersionInfo": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "RestoreOnStartup": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 4
+      },
+      "RestoreOnStartupURLs": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "http://www.johnson.kyschools.us" ]
+      },
+      "SafeBrowsingEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "SavingBrowserHistoryDisabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ScreenDimDelayAC": {
+         "error": "This policy has been deprecated.",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "ScreenDimDelayBattery": {
+         "error": "This policy has been deprecated.",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "ScreenLockDelayAC": {
+         "error": "This policy has been deprecated.",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "ScreenLockDelayBattery": {
+         "error": "This policy has been deprecated.",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "ScreenOffDelayAC": {
+         "error": "This policy has been deprecated.",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "ScreenOffDelayBattery": {
+         "error": "This policy has been deprecated.",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "SessionLengthLimit": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 86400000
+      },
+      "ShelfAutoHideBehavior": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourcePublicSessionOverride",
+         "value": "Never"
+      },
+      "ShowHomeButton": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ShowLogoutButtonInTray": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourcePublicSessionOverride",
+         "value": true
+      },
+      "SpellCheckServiceEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "SystemTimezone": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": "America/New_York"
+      },
+      "UsbDetachableWhitelist": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "UserAvatarImage": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": {
+            "hash": "5ed5557fe5c22a9e5dd6482a689a23667c5e301b175ed47676e5fbb6689ee4a1",
+            "url": "https://storage.googleapis.com/chromeos-mgmt/0gjdgxs1ukdbxv/PublicAccountPicture/db5b515e-2e02-47fd-9026-0ddacf615f39"
+         }
+      },
+      "UserDisplayName": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": "Public Account"
+      }
+   },
+   "extensionPolicies": {
+
+   }
+}
